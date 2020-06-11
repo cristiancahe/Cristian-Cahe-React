@@ -8,19 +8,19 @@ import './styles/main.css';
 export default function App() {
   return (
     <body>
-      <div>
+      <React.Fragment>
         <Navbar />
-      </div>
+      </React.Fragment>
       <div className="hero">
         <h1>Hi, this website is under reconstruction.</h1>
-        <h1>Check back soon, it should be ready by <i>then</i>.</h1>
+        <h2><i>Check back soon, it should be ready by then.</i></h2>
       </div>
-      <div>
+      <React.Fragment>
         <Blog />
-      </div>
-      <div>
+      </React.Fragment>
+      <React.Fragment>
         <Projects />
-      </div>
+      </React.Fragment>
       <footer>
         <Contact />
       </footer>

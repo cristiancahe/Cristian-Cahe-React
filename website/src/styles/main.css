@@ -8,3 +8,25 @@ body, html {
 h1 {
   font-size: 6rem;
 }
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.navbar img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.hero {
+  margin: 10rem 0rem 10rem; /* top, right and left, bottom */
+}
