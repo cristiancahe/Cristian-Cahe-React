@@ -12,8 +12,11 @@ export default function App() {
         <Navbar />
       </React.Fragment>
       <div className="hero">
-        <h1>Hi, this website is under reconstruction.</h1>
-        <h2><i>Check back soon, it should be ready by then.</i></h2>
+        <h1>Hello,</h1>
+        <h2>This website is under reconstruction <span role="img">🚧</span>.</h2>
+        <h2>Please come back soon!</h2>
+        {/* <h2>I'm a software engineer from the City of Buenos Aires</h2> */}
+        {/* <h2>I'm currently working for Globant, whilst also pursuing a Bachelor in Computer Science.</h2> */}
       </div>
       <React.Fragment>
         <Blog />

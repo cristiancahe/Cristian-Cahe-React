@@ -11,6 +11,7 @@ h1 {
 
 h2 {
   font-size: 4rem;
+  line-height: 7.5rem;
 }
 
 h3 {
@@ -27,6 +28,26 @@ h3 {
   height: 10rem;
 }
 
+.navbar button {
+  margin: 0rem 2rem 0rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0;
+}
+
 .hero {
-  margin: 10rem 0rem 10rem; /* top, right and left, bottom */
+  padding: 10rem 2rem 10rem; /* top, right and left, bottom */
+}
+
+.blog {
+  padding: 10rem 2rem 10rem;
+}
+
+.projects {
+  padding: 10rem 2rem 10rem;
+}
+
+.contact {
+  padding: 1rem 2rem 1rem;
+  border-top: 1px solid black;
 }

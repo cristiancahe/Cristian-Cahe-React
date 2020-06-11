@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Blog() {
   return (
-    <div>
-      <h2>be real, you're never gonna post anything here</h2>
+    <div className="blog">
+      <h2>Blog section.</h2>
     </div>
   );
 }

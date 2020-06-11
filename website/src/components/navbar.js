@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Logo from '../images/logo.png';
-import Button from './button';
+import Button from './contactButton';
 
 export default function Navbar() {
   return (
