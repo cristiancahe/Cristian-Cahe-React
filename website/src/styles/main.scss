@@ -28,6 +28,21 @@ html {
   }
 }
 
+.cardContainer {
+  padding: 2rem 2rem 2rem;
+  display: flex;
+
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    border: none;
+    border-radius: 1.5rem;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 23px 23px 47px #d9d9d9, -23px -23px 47px #ffffff;
+  }
+}
+
 /*
 Paddings: (top), (right and left), (bottom)
 Children rem sizing will result in x times the body font-size value.
@@ -52,10 +67,10 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
   button {
     margin: 0rem 2rem 0rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 0;
     border-radius: 1rem;
-    background: #0000ff;
+    background: linear-gradient(145deg, #0000ff, #0000e6);
     box-shadow: 23px 23px 47px #0000d9, -23px -23px 47px #0000ff;
     color: white;
     font-family: ivypresto-display, serif;
@@ -64,12 +79,12 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   }
 }
 
-
 /* 2 - About *************************************************/
 .about {
   padding: 10rem 0rem 10rem;
 
   h1 {
+    margin: 0;
     padding: 2rem 2rem 2rem;
     font-family: ivypresto-display, serif;
     font-weight: 300;
@@ -78,40 +93,50 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   }
 
   h2 {
+    margin: 0;
     padding: 2rem 2rem 2rem;
     font-family: CerebriSansLight;
     font-size: 3rem;
     line-height: 7.5rem;
+  }
 
-    span {
-      font-family: gothic-open-shaded, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
+  h3 {
+    font-family: ivypresto-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+  }
 
-    // a {
-    //   text-decoration: none;
-    // }
+  p {
+    font-size: 1.2rem;
   }
 }
 
 /* 3 - Projects *************************************************/
 .projects {
-  padding: 2rem 2rem 10rem;
+  padding: 2rem 0rem 10rem;
 
   h2 {
+    margin: 0;
+    padding: 2rem 2rem 2rem;
     font-family: ivypresto-display, serif;
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
   }
+
+  span {
+    color: #999999;
+  }
 }
 
 /* 4 - Lab *************************************************/
 .lab {
-  padding: 2rem 2rem 10rem;
+  padding: 2rem 0rem 10rem;
 
   h2 {
+    margin: 0;
+    padding: 2rem 2rem 2rem;
     font-family: ivypresto-display, serif;
     font-weight: 300;
     font-style: normal;
@@ -121,9 +146,11 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 5 - Blog *************************************************/
 .blog {
-  padding: 2rem 2rem 10rem;
+  padding: 2rem 0rem 10rem;
 
   h2 {
+    margin: 0;
+    padding: 2rem 2rem 2rem;
     font-family: ivypresto-display, serif;
     font-weight: 300;
     font-style: normal;
@@ -133,10 +160,12 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 6 - Contact *************************************************/
 .contact {
-  padding: 1rem 2rem 1rem;
+  padding: 1rem 0rem 1rem;
   border-top: 1px solid black;
 
   h2 {
+    margin: 0;
+    padding: 2rem 2rem 2rem;
     font-family: ivypresto-display, serif;
     font-weight: 300;
     font-style: normal;

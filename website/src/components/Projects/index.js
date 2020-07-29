@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 import ProjectCards from './card';
 
 export default function Projects() {
@@ -7,9 +6,7 @@ export default function Projects() {
     <div className="projects">
       <h2>Projects</h2>
       <div>
-        <Grid>
-          <ProjectCards />
-        </Grid>
+        <ProjectCards />
       </div>
     </div>
   );

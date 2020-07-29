@@ -4,7 +4,7 @@ import Logo from '../../images/logo2.png';
 import ContactButton from './contactButton';
 
 
-export default function BootstrapNavbar() {
+export default function Navbar() {
   return (
     <Grid className="navbar">
       <img src={Logo} alt="logo" tabIndex="0" />

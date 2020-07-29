@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import BootstrapNavbar from '../Navbar'
+import Navbar from '../Navbar'
 import About from '../About';
 import Blog from '../Blog';
 import Projects from '../Projects';
@@ -11,7 +11,7 @@ import '../../styles/main.css';
 export default function App() {
   return (
     <div>
-      <BootstrapNavbar />
+      <Navbar />
       <About />
       <div className="mobile">
         <Projects />
