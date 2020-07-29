@@ -18,24 +18,58 @@ html {
   .desktop {
     display: none;
   }
+
+  .card {
+    width: 45%;
+  }
+
+  .blog .card {
+    width: auto;
+  }
 }
 @media screen and (min-width: 800px) {
   .mobile {
     display: none;
   }
+
+  .card {
+    width: 40%;
+  }
 }
 .cardContainer {
   padding: 2rem 2rem 2rem;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 .cardContainer .card {
-  margin: 1rem;
   padding: 1rem;
-  width: 50%;
   border: none;
   border-radius: 1.5rem;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 23px 23px 47px #d9d9d9, -23px -23px 47px #ffffff;
+}
+.cardContainer .card h3 {
+  margin: 0;
+  padding: 1rem 0rem 1rem;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+.cardContainer .card h4 {
+  margin: 0;
+  padding: 1rem 0rem 1rem;
+  font-size: 1.8rem;
+}
+.cardContainer .card span {
+  color: #999999;
+  font-size: 1.4rem;
+}
+.cardContainer .card p {
+  margin: 0;
+  padding: 1rem 0rem 1rem;
+  font-size: 1.4rem;
 }
 
 /*
@@ -89,15 +123,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   font-size: 3rem;
   line-height: 7.5rem;
 }
-.about h3 {
-  font-family: ivypresto-display, serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 2.5rem;
-}
-.about p {
-  font-size: 1.2rem;
-}
 
 /* 3 - Projects *************************************************/
 .projects {
@@ -110,9 +135,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   font-weight: 300;
   font-style: normal;
   font-size: 3rem;
-}
-.projects span {
-  color: #999999;
 }
 
 /* 4 - Lab *************************************************/

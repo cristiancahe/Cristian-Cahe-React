@@ -12,7 +12,7 @@ export default function ProjectCards() {
       <div className="card">
         <h4>Catedral de La Plata</h4>
         <span>Android and iOS</span>
-        <p>Tour guide app for the La Plata Cathedral.</p>
+        <p>Tour guide app for the Cathedral of La Plata.</p>
       </div>
     </div>
   );

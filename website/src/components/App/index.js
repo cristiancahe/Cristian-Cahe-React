@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 import Navbar from '../Navbar'
 import About from '../About';
 import Blog from '../Blog';
@@ -19,10 +18,8 @@ export default function App() {
         <Blog />
       </div>
       <div className="desktop">
-        <Grid container direction="row" justify="space-between" alignItems="center">
-          <Projects />
-          <Lab />
-        </Grid>
+        <Projects />
+        <Lab />
         <Blog />
       </div>
       <div>
