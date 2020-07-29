@@ -13,11 +13,18 @@ export default function App() {
     <div>
       <BootstrapNavbar />
       <About />
-      <Grid container direction="column" justify="space-between" alignItems="center">
+      <div className="mobile">
         <Projects />
         <Lab />
         <Blog />
-      </Grid>
+      </div>
+      <div className="desktop">
+        <Grid container direction="row" justify="space-between" alignItems="center">
+          <Projects />
+          <Lab />
+        </Grid>
+        <Blog />
+      </div>
       <div>
         <Contact />
       </div>

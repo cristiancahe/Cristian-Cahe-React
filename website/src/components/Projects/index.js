@@ -1,15 +1,16 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import ProjectCard from './card';
-// import Card from '@material-ui/core/Card';
+import ProjectCards from './card';
 
 export default function Projects() {
   return (
     <div className="projects">
-      <h2>Projects.</h2>
-      <Grid container direction="row">
-        <ProjectCard />
-      </Grid>
+      <h2>Projects</h2>
+      <div>
+        <Grid>
+          <ProjectCards />
+        </Grid>
+      </div>
     </div>
   );
 }

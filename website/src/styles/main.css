@@ -6,6 +6,24 @@ html {
   font-size: 10px;
 }
 
+@font-face {
+  font-family: CerebriSansLight;
+  src: url(fonts/CerebriSans-Light.ttf);
+}
+@font-face {
+  font-family: SFProDisplayLight;
+  src: url(fonts/SF-Pro-Display-Thin.otf);
+}
+@media screen and (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 800px) {
+  .mobile {
+    display: none;
+  }
+}
 /*
 Paddings: (top), (right and left), (bottom)
 Children rem sizing will result in x times the body font-size value.
@@ -14,21 +32,28 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 */
 /* 1 - Navbar *************************************************/
 .navbar {
-  background: rgba(240, 240, 240, 0.8);
+  background: white;
+  background: linear-gradient(90deg, white 0%, blue 60%);
+  -webkit-box-shadow: 0px 20px 20px 0px #f0f0f0;
+  -moz-box-shadow: 0px 20px 20px 0px #f0f0f0;
+  box-shadow: 0px 20px 20px 0px #f0f0f0;
   color: white;
 }
-
 .navbar img {
   width: 10rem;
   height: 10rem;
 }
-
 .navbar button {
   margin: 0rem 2rem 0rem;
   padding: 1rem;
-  border-radius: 1rem;
   border: 0;
-  background: rgba(230, 230, 230, 0.8);
+  border-radius: 1rem;
+  background: #0000ff;
+  box-shadow: 23px 23px 47px #0000d9, -23px -23px 47px #0000ff;
+  color: white;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 /* 2 - About *************************************************/
@@ -44,29 +69,59 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 }
 .about h2 {
   padding: 2rem 2rem 2rem;
+  font-family: CerebriSansLight;
   font-size: 3rem;
   line-height: 7.5rem;
+}
+.about h2 span {
+  font-family: gothic-open-shaded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* 3 - Projects *************************************************/
 .projects {
   padding: 2rem 2rem 10rem;
 }
+.projects h2 {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
+}
 
 /* 4 - Lab *************************************************/
 .lab {
   padding: 2rem 2rem 10rem;
+}
+.lab h2 {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
 }
 
 /* 5 - Blog *************************************************/
 .blog {
   padding: 2rem 2rem 10rem;
 }
+.blog h2 {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
+}
 
 /* 6 - Contact *************************************************/
 .contact {
   padding: 1rem 2rem 1rem;
   border-top: 1px solid black;
+}
+.contact h2 {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
