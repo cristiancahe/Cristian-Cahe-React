@@ -1,12 +1,16 @@
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import Grid from '@material-ui/core/Grid'
 
 
 export default function Contact() {
   return (
-    <Grid className="contact">
-      <Box><h2>Contact</h2></Box>
-    </Grid>
+    <div className="contact">
+      <h2>Contact</h2>
+      <div className="links">
+        <a class="far fa-envelope" href="mailto:contact@madebycristian.com?subject=Hello Cristian!"></a>
+        <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/cgcahe/" target="_blank"></a>
+        <a class="fab fa-github" href="https://www.github.com/pizzadeparado" target="_blank"></a>
+        <a class="fab fa-twitter" href="https://www.twitter.com/pizzadeparado" target="_blank"></a>
+      </div>
+    </div>
   );
 }

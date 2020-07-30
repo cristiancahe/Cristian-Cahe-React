@@ -1,12 +1,8 @@
 import React from 'react';
 
 
-export default function ContactButton() {
-  function handleClick(e) {
-    e.scrollToBottom();
-  }
-  
+export default function ContactButton() {  
   return (
-    <button onClick={handleClick}>Contact &darr;</button>
+    <button onClick={"/contact"}>Contact &darr;</button>
   );
 }
