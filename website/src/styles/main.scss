@@ -22,7 +22,7 @@ html {
   }
 
   .card {
-    width: 45%;
+    width: 40%;
   }
 
   .blog .card {
@@ -48,7 +48,6 @@ html {
 
   .card {
     padding: 1rem;
-    border: none;
     border-radius: 1.5rem;
     background: linear-gradient(145deg, #ffffff, #e6e6e6);
     box-shadow: 23px 23px 47px #d9d9d9, -23px -23px 47px #ffffff;
@@ -60,6 +59,7 @@ html {
       font-weight: 300;
       font-style: normal;
       font-size: 2.5rem;
+      color: #0000e1;
     }
 
     h4 {
@@ -91,7 +91,13 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 1 - Navbar *************************************************/
 .navbar {
-  background: #e0e0e0;
+  padding: 1rem 0rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(224, 224, 224);
+  background: linear-gradient(180deg, rgba(224, 224, 224, 1) 60%, rgba(255, 255, 255, 0) 100%);
   border-bottom: 0.1rem solid black;
 
   img {
@@ -99,8 +105,17 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
     height: 10rem;
   }
 
+  span {
+    color: #888888;
+    font-size: 1rem;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
   button {
-    margin: 0rem 2rem 0rem;
+    margin: 2rem;
     padding: 1.5rem;
     border: 0;
     border-radius: 1rem;
@@ -133,7 +148,7 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 3 - Projects *************************************************/
 .projects {
-  padding: 2rem 0rem 10rem;
+  padding: 2rem 0rem 6rem;
 
   h2 {
     margin: 0;
@@ -143,11 +158,15 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
     font-style: normal;
     font-size: 3rem;
   }
+
+  .card {
+    margin-bottom: 2rem;
+  }
 }
 
 /* 4 - Lab *************************************************/
 .lab {
-  padding: 2rem 0rem 10rem;
+  padding: 2rem 0rem 6rem;
 
   h2 {
     margin: 0;
@@ -156,6 +175,15 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
     font-weight: 300;
     font-style: normal;
     font-size: 3rem;
+  }
+
+  i {
+    margin: 0;
+    padding: 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 6rem;
   }
 }
 
@@ -179,6 +207,7 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   border-top: 0.1rem solid black;
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-evenly;
   align-items: center;
 
   h2 {
@@ -191,15 +220,11 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   }
 
   .links {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
     margin: 0;
     padding: 2rem 2rem 2rem;
 
     a {
-      padding: 1.5rem;
+      margin: 1.5rem;
       font-size: 2rem;
       text-decoration: none;
       color: #0000e1;

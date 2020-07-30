@@ -6,10 +6,10 @@ export default function Contact() {
     <div className="contact">
       <h2>Contact</h2>
       <div className="links">
-        <a class="far fa-envelope" href="mailto:contact@madebycristian.com?subject=Hello Cristian!"></a>
-        <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/cgcahe/" target="_blank"></a>
-        <a class="fab fa-github" href="https://www.github.com/pizzadeparado" target="_blank"></a>
-        <a class="fab fa-twitter" href="https://www.twitter.com/pizzadeparado" target="_blank"></a>
+        <a href="mailto:contact@madebycristian.com?subject=Hello Cristian!"><i class="far fa-envelope" /></a>
+        <a href="https://www.linkedin.com/in/cgcahe/" rel="noreferrer noopener" target="_blank"><i class="fab fa-linkedin-in" /></a>
+        <a href="https://www.github.com/pizzadeparado" rel="noreferrer noopener" target="_blank"><i class="fab fa-github" /></a>
+        <a href="https://www.twitter.com/pizzadeparado" rel="noreferrer noopener" target="_blank"><i class="fab fa-twitter" /></a>
       </div>
     </div>
   );
