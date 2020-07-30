@@ -82,22 +82,28 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 .navbar {
   padding: 1rem 0rem 1rem;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   background: #e0e0e0;
-  background: linear-gradient(180deg, #e0e0e0 60%, rgba(255, 255, 255, 0) 100%);
-  border-bottom: 0.1rem solid black;
+  background: linear-gradient(180deg, #e0e0e0 80%, rgba(255, 255, 255, 0) 100%);
 }
-.navbar img {
+.navbar .logo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar .logo img {
   width: 10rem;
   height: 10rem;
 }
-.navbar span {
+.navbar .logo span {
   color: #888888;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  width: 10rem;
 }
-.navbar span a {
+.navbar .logo span a {
   text-decoration: none;
 }
 .navbar button {
@@ -181,7 +187,7 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 6 - Contact *************************************************/
 .contact {
-  padding: 1rem 0rem 1rem;
+  padding: 1rem 0rem 3rem;
   border-top: 0.1rem solid black;
   display: flex;
   flex-flow: row nowrap;
