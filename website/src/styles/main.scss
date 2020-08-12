@@ -21,8 +21,33 @@ html {
     display: none;
   }
 
+  .navbar {
+    justify-content: space-evenly;
+  }
+
+  .about {
+    padding: 10rem 0rem 10rem;
+  }
+
+  .projects {
+    padding: 2rem 0rem 6rem;
+  }
+
+  .lab {
+    padding: 2rem 0rem 6rem;
+  }
+
+  .blog {
+    padding: 2rem 0rem 10rem;
+  }
+
   .card {
     width: 40%;
+  }
+
+  .contact {
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
   }
 
   .blog .card {
@@ -33,6 +58,35 @@ html {
 @media screen and (min-width: 800px) {
   .mobile {
     display: none;
+  }
+
+  .navbar {
+    justify-content: space-evenly;
+  }
+
+  .about {
+    padding: 10rem 5rem 10rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .projects {
+    padding: 2rem 5rem 6rem;
+  }
+
+  .lab {
+    padding: 2rem 5rem 6rem;
+  }
+
+  .blog {
+    padding: 2rem 5rem 10rem;
+  }
+
+  .contact {
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
   }
 
   .card {
@@ -94,34 +148,18 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   padding: 1rem 0rem 1rem;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: center;
   background: rgb(224, 224, 224);
   background: linear-gradient(180deg, rgba(224, 224, 224, 1) 80%, rgba(255, 255, 255, 0) 100%);
 
   .logo {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    
     img {
       width: 10rem;
       height: 10rem;
     }
-
-    span {
-      color: #888888;
-      font-size: 1.1rem;
-      width: 10rem;
-
-      a {
-        text-decoration: none;
-      }
-    }
   }
 
-  button {
+  .button {
     margin: 2rem;
     padding: 1.5rem;
     border: 0;
@@ -133,8 +171,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 2 - About *************************************************/
 .about {
-  padding: 10rem 0rem 10rem;
-
   h1 {
     margin: 0;
     padding: 2rem 2rem 2rem;
@@ -155,8 +191,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 3 - Projects *************************************************/
 .projects {
-  padding: 2rem 0rem 6rem;
-
   h2 {
     margin: 0;
     padding: 2rem 2rem 2rem;
@@ -173,8 +207,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 4 - Lab *************************************************/
 .lab {
-  padding: 2rem 0rem 6rem;
-
   h2 {
     margin: 0;
     padding: 2rem 2rem 2rem;
@@ -196,8 +228,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
 
 /* 5 - Blog *************************************************/
 .blog {
-  padding: 2rem 0rem 10rem;
-
   h2 {
     margin: 0;
     padding: 2rem 2rem 2rem;
@@ -213,8 +243,6 @@ Padding and Margin -> Background and Color -> Font Style (Font, Line)
   padding: 1rem 0rem 3rem;
   border-top: 0.1rem solid black;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
   align-items: center;
 
   h2 {

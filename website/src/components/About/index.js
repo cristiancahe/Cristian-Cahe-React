@@ -5,12 +5,14 @@ import Fade from 'react-reveal/Fade';
 export default function About() {
   return (
     <div className="about">
-      <Fade bottom>
-        <h1>Hello,</h1>
-      </Fade>
-      <Fade bottom>
-        <h2>I'm Cristian and I create things for the internet.</h2>
-      </Fade>
+      <div>
+        <Fade bottom>
+          <h1>Hello,</h1>
+        </Fade>
+        <Fade bottom>
+          <h2>I'm Cristian and I create things for the internet.</h2>
+        </Fade>
+      </div>
       <Fade bottom big>
         <div className="cardContainer">
           <div className="card">
