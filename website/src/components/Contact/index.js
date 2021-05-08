@@ -8,8 +8,8 @@ export default function Contact() {
       <div className="links">
         <a href="mailto:contact@madebycristian.com?subject=Hello Cristian!"><i class="far fa-envelope" /></a>
         <a href="https://www.linkedin.com/in/cgcahe/" rel="noreferrer noopener" target="_blank"><i class="fab fa-linkedin-in" /></a>
-        <a href="https://www.github.com/pizzadeparado" rel="noreferrer noopener" target="_blank"><i class="fab fa-github" /></a>
-        <a href="https://www.twitter.com/pizzadeparado" rel="noreferrer noopener" target="_blank"><i class="fab fa-twitter" /></a>
+        <a href="https://www.github.com/neokiddo" rel="noreferrer noopener" target="_blank"><i class="fab fa-github" /></a>
+        <a href="https://www.twitter.com/neokidd0" rel="noreferrer noopener" target="_blank"><i class="fab fa-twitter" /></a>
       </div>
     </div>
   );
